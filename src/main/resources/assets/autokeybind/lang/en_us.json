@@ -1,0 +1,6 @@
+{
+  "key.autokeybind.action": "Auto Keybind Action",
+  "category.autokeybind.main": "Auto Keybind Mod",
+  "autokeybind.config.title": "Auto Keybind Mod Configuration",
+  "autokeybind.config.keybind": "Keybind for action"
+}

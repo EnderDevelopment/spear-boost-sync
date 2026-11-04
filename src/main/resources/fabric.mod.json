@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "autokeybind",
+  "version": "${version}",
+  "name": "Auto Keybind Mod",
+  "description": "A Fabric mod for automating keybind actions in combat/movement",
+  "authors": ["EnderDevelopment"],
+  "contact": {
+    "homepage": "https://enderdevelopment.com",
+    "sources": "https://github.com/EnderDevelopment/autokeybind"
+  },
+  "license": "MIT",
+  "icon": "assets/autokeybind/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderdevelopment.autokeybind.AutokeybindMod"
+    ],
+    "client": [
+      "com.enderdevelopment.autokeybind.client.AutokeybindClientMod"
+    ]
+  },
+  "mixins": [
+    "autokeybind.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
